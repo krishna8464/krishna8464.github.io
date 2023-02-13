@@ -7,7 +7,7 @@
 }
 body {
   background-color: #1f1f20;
-  /* position: relative; */
+  position: relative;
 
 }
 
@@ -19,7 +19,7 @@ nav {
   justify-content: space-between;
   padding: 0px 50px 0px 100px;
 
-  /* margin-top: -100px; */
+  margin-top: -100px;
   width: 100%;
   position: fixed;
   /* z-index: 1; */
@@ -70,8 +70,10 @@ nav .menu-btn i {
 }
 
 
+
+
 #myBtn {
-    /* display: none; */
+    display: none;
     position: fixed;
     bottom: 20px;
     right: 30px;
@@ -93,6 +95,90 @@ nav .menu-btn i {
   } 
 
 
+
+
+  /* the first div css code starts */
+  #resume {
+    padding-left: 20px;
+    margin-top: 50px;
+  }
+  #resume >a{
+    text-decoration: none;
+  }
+  #resume > a >button{
+    background-color: #da9a07;
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 30px 10px 30px;
+    border-radius: 8px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: all 1s;
+  }
+  #resume > a >button:hover {
+    background-color: #1f1f20;
+    color: white;
+    border: 2px solid #da9a07;
+  }
+  #intro {
+    display: flex;
+    height: 400px;
+    margin-top: 100px;
+    /* padding-top: 50px; */
+  }
+  #introText {
+    width: 75%;
+    font-family: "Poppins", sans-serif;
+  }
+  #introText > h3 {
+    font-size: 50px;
+    color: white;
+    padding-left: 30px;
+    letter-spacing: 3px;
+  }
+  #str {
+    padding-left: 20px;
+    height: auto;
+    font-family: "Poppins", sans-serif;
+    font-size: 70px;
+    letter-spacing: 2px;
+    color: #da9a07;
+    font-weight: bold;
+    margin-top: -10px;
+    transition: all 1s ease-in;
+  }
+  #str:hover {
+    transform: translatex(50px);
+    color: rgb(255, 178, 127);
+  }
+  #floating_intro {
+    position: relative;
+  }
+  .floating {
+    animation-name: floating;
+    width: 90%;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  
+    margin-top: 5px;
+    margin-left: -10px;
+  }
+  @keyframes floating {
+    from {
+      transform: translate(0, 0px);
+    }
+    65% {
+      transform: translate(0, 15px);
+    }
+    to {
+      transform: translate(0, 0px);
+    }
+  }
+/* the first div css code ends */
+
+
+/* nav css starts */
 @media all and (min-width: 500px) and (max-width: 940px) {
     nav .menu-btn i {
         display: block;
@@ -123,6 +209,42 @@ nav .menu-btn i {
         margin: 40px 0px;
         font-size: 20px;
       }
+      /* first div starts */
+      #intro {
+        display: block;
+      }
+      #introText {
+        width: 100%;
+        font-family: "Poppins", sans-serif;
+      }
+      #introText > h3 {
+        font-size: 40px;
+      }
+      #introText > h3 + #str {
+        width: 100%;
+        font-size: 60px;
+        letter-spacing: 0.5px;
+        margin-top: 2px;
+      }
+      .typing-dev {
+        font-size: 23px;
+        padding-left: 20px;
+        color: whitesmoke;
+        letter-spacing: 0.7px;
+      }
+    
+      .floating {
+        width: 40%;
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+      }
+    
+      .typing-text {
+        padding-top: 50px;
+        font-size: 40px;
+      }
+      /* first div ends */
 }
 
 @media all and (min-width: 150px) and (max-width: 500px) {
@@ -154,4 +276,179 @@ nav .menu-btn i {
         margin: 40px 0px;
         font-size: 20px;
       }
+      /* first div starts */
+      #resume {
+        margin-top: 20px;
+      }
+      #resume > a >button{
+        font-size: 12px;
+        padding: 5px 15px 5px 15px;
+      }
+
+      #intro {
+        display: block;
+      }
+      #introText {
+        width: 100%;
+        font-family: "Poppins", sans-serif;
+      }
+      #introText > h3 {
+        font-size: 25px;
+        margin-left: -10px;
+        letter-spacing: 0px;
+      }
+    
+      #introText > h3 + #str {
+        width: 100%;
+        font-size: 30px;
+        letter-spacing: 0.5px;
+        margin-top: 5px;
+      }
+      .typing-dev {
+        font-size: 16px;
+        padding-left: 20px;
+        color: whitesmoke;
+        letter-spacing: 0.7px;
+      }
+    
+      .floating {
+        width: 60%;
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+      }
+    
+      .typing-text {
+        padding-top: 40px;
+        font-size: 20px;
+      }
+      /* first div ends */
+
 }
+/* nav and first div ends */
+
+/* --------------------------------------------------------nav and first div css ends ----------------------------------------------------- */
+
+/* about  starts*/
+#abouts {
+  display: flex;
+  gap: 60px;
+  background-color: #da9a07;
+  margin-top: -50px;
+  padding-bottom: 150px;
+}
+#about_img {
+  width: 40%;
+}
+#about_img > img {
+  width: 80%;
+  margin-left: 50px;
+}
+#aboutInfo {
+  width: 50%;
+  padding: 10px;
+  margin-top: -50px;
+}
+#myImage {
+  display: block;
+  width: 30%;
+  margin: auto;
+
+  padding-bottom: 40px;
+}
+#myImage + h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  letter-spacing: 0.5px;
+  color: #000000;
+}
+#myImage + h3 + h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  margin-left: -8px;
+  color: #645e5d;
+  margin-top: -5px;
+}
+#myImage + h3 + h2 > span {
+  color: whitesmoke;
+}
+#myImage + h3 + h2 + p {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+#svg2 {
+  margin-top: -230px;
+}
+
+@media all and (min-width: 500px) and (max-width: 940px) {
+  #svg1 {
+    margin-top: 150px;
+  }
+  #abouts {
+    display: block;
+  }
+  #about_img {
+    display: block;
+    width: 50%;
+    margin: auto;
+  }
+  #aboutInfo {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  #myImage + h3 {
+    padding: 10px;
+    font-size: 28px;
+  }
+  #myImage + h3 + h2 {
+    padding: 10px;
+    font-size: 55px;
+    margin-top: -20px;
+  }
+  #myImage + h3 + h2 + p {
+    font-size: 18px;
+    padding: 10px;
+    margin-top: -10px;
+  }
+}
+
+@media all and (min-width: 150px) and (max-width: 500px) {
+  #svg1 {
+    margin-top: 80px;
+  }
+  #abouts {
+    display: block;
+    margin-top: -10px;
+    padding-bottom: 90px;
+  }
+  #about_img {
+    display: block;
+    width: 70%;
+    margin: auto;
+    margin-left: 35px;
+  }
+  #aboutInfo {
+    width: 100%;
+    margin-top: 30px;
+  }
+  #myImage {
+    width: 40%;
+  }
+  #myImage + h3 {
+    padding: 10px;
+    font-size: 25px;
+  }
+  #myImage + h3 + h2 {
+    padding: 15px;
+    font-size: 40px;
+    margin-top: -25px;
+  }
+  #myImage + h3 + h2 + p {
+    font-size: 14px;
+    padding: 10px;
+    margin-top: -20px;
+  }
+}
+
+/* about ends  */
