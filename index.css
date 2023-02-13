@@ -1,5 +1,5 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Monoton&family=Montserrat:wght@400;600&family=Oswald&family=Poppins:wght@400;500&family=Roboto&family=Source+Sans+Pro&family=Ubuntu&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Monoton&family=Montserrat:wght@400;600&family=Oswald&family=Poppins:wght@400;500&family=Roboto&family=Source+Sans+Pro&family=Ubuntu&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Monoton&family=Montserrat:wght@400;600&family=Oswald&family=Poppins:wght@400;500&family=Roboto&family=Source+Sans+Pro&family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Monoton&family=Montserrat:wght@400;600&family=Oswald&family=Poppins:wght@400;500&family=Roboto&family=Source+Sans+Pro&family=Ubuntu&display=swap");
 
 * {
   padding: 0;
@@ -452,3 +452,90 @@ nav .menu-btn i {
 }
 
 /* about ends  */
+
+
+/* skills starts  */
+.mySkills > h1 {
+  text-align: center;
+  font-size: 60px;
+  letter-spacing: 15px;
+  font-family: "Poppins", sans-serif;
+  color: #7b7b7b;
+  font-weight: 700;
+}
+.skills {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(1, auto);
+  column-gap: 10px;
+  margin: auto;
+  width: 100%;
+  justify-content: center;
+  padding: 100px 0px 200px 0px;
+}
+.skills > div > img {
+  width: 40%;
+  display: block;
+  margin: auto;
+  transition: all 1s;
+}
+.skills > div > img:hover {
+  transform: scale(1.2);
+}
+.skills > div > h2 {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: aliceblue;
+  padding-top: 20px;
+  transition: all 1s;
+}
+.skills > div > h2:hover {
+  transform: scale(1.2);
+  color: #da9a07;
+}
+@media all and (min-width: 500px) and (max-width: 940px) {
+  #abouts + svg {
+    margin-bottom: -90px;
+  }
+  .mySkills > h1 {
+    font-size: 40px;
+    padding-top: 20px;
+  }
+  .skills {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    row-gap: 30px;
+    padding: 50px 0px 200px 0px;
+  }
+  .skills > div > h2 {
+    font-size: 18px;
+  }
+}
+
+@media all and (min-width: 150px) and (max-width: 500px) {
+  #abouts + svg {
+    margin-bottom: -150px;
+  }
+  .mySkills > h1 {
+    font-size: 30px;
+    padding-top: 20px;
+    letter-spacing: 7px;
+  }
+  .skills {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, auto);
+    row-gap: 30px;
+    padding: 50px 0px 200px 0px;
+  }
+  .skills > div > img {
+    width: 30%;
+  }
+  .skills > div > h2 {
+    font-size: 13px;
+  }
+}
+
+/* skills ends  */
