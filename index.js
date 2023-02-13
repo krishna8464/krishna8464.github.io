@@ -33,10 +33,10 @@ var el = document.getElementById("str");
 
 // code sleep rep
 // get the element
-const text1 = document.querySelector(".typing-text");
+ const text1 = document.querySelector(".typing-text");
 
 // make a words array
-const words1 = ["eat.", "sleep.", "code.", "repeat."];
+ const words1 = ["eat.", "sleep.", "code.", "repeat."];
 
 // start typing effect
 setTyper(text1, words1);

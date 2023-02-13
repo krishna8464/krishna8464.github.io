@@ -95,6 +95,33 @@ nav .menu-btn i {
   } 
 
 
+  /* eat sleep code  */
+.typing-text {
+  color: #f88922;
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  font-weight: 200;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.typing-text::after {
+  content: "|";
+  animation: blink ease 1s infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+/* eat sleep code  ends */
+
 
 
   /* the first div css code starts */
@@ -539,3 +566,136 @@ nav .menu-btn i {
 }
 
 /* skills ends  */
+
+
+/* contact starts */
+@media all and (min-width: 500px) and (max-width: 1000px) {
+  /* .contactme {
+    padding-top: 100px;
+  }
+  .contactme > h1 {
+    font-size: 50px;
+  }
+  .contact {
+    display: block;
+    padding-top: 30px;
+  }
+  .contactimg > img {
+    width: 20%;
+    margin-left: 30px;
+    display: block;
+    margin: auto;
+  }
+  .contactMail {
+    width: 95%;
+    margin: auto;
+    padding: 30px;
+  }
+  .contactMail > h2 {
+    font-size: 22px;
+    margin-left: 60px;
+  }
+  .contactMail > h2 > span > img {
+    width: 22px;
+  }
+  .form {
+    width: 80%;
+    margin-left: 60px;
+  }
+  .formname {
+    width: 40%;
+    padding-left: 10px;
+  }
+  .formmail {
+    width: 40%;
+  }
+  textarea {
+    width: 88%;
+    height: 120px;
+    margin-top: 20px;
+    border-radius: 7px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: "Poppins", sans-serif;
+  }
+  #submit {
+    padding: 8px 15px 8px 15px;
+    margin-top: 20px;
+  }
+  form + div {
+    justify-content: center;
+    width: 40%;
+  } */
+  .typing-text {
+    font-size: 22px;
+  }
+}
+
+@media all and (min-width: 150px) and (max-width: 500px) {
+  /* .contactme {
+    padding-top: 100px;
+  }
+  .contactme > h1 {
+    font-size: 30px;
+    letter-spacing: 3px;
+  }
+  .contact {
+    display: block;
+    padding-top: 30px;
+  }
+  .contactimg > img {
+    width: 30%;
+    margin-left: 30px;
+    display: block;
+    margin: auto;
+  }
+  .contactMail {
+    width: 100%;
+    margin: auto;
+    padding: 30px;
+  }
+  .contactMail > h2 {
+    font-size: 18px;
+  }
+  .contactMail > h2 > span > img {
+    width: 22px;
+  }
+  .form {
+    width: 100%;
+  }
+  .formname {
+    width: 100%;
+    padding-left: 10px;
+    height: 40px;
+  }
+  .formmail {
+    width: 100%;
+    margin: auto;
+    height: 40px;
+  }
+  textarea {
+    width: 100%;
+    height: 120px;
+    margin-top: 20px;
+    border-radius: 7px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: "Poppins", sans-serif;
+  }
+  #submit {
+    padding: 8px 15px 8px 15px;
+    margin-top: 20px;
+  }
+  form + div {
+    justify-content: center;
+    width: 40%;
+  }
+  form + div > img {
+    width: 30%;
+  } */
+  .typing-text {
+    font-size: 18px;
+  }
+}
+
+/* constact ends */
