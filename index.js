@@ -184,13 +184,13 @@ document.getElementById("contact-email").addEventListener("click", function () {
 // GitHubCalendar(".calendar", "krishna8464");
 
 // or enable responsive functionality:
-GitHubCalendar(".calendar", "krishna8464", { responsive: true });
+ GitHubCalendar(".calendar", "krishna8464", { responsive: true });
 
-// Use a proxy
-GitHubCalendar(".calendar", "krishna8464", {
-  proxy(username) {
-    return fetch(`https://your-proxy.com/github?user=${krishna8464}`);
-  },
-}).then((r) => r.text());
+// // Use a proxy
+// GitHubCalendar(".calendar", "krishna8464", {
+//   proxy(username) {
+//     return fetch(`https://your-proxy.com/github?user=${krishna8464}`);
+//   },
+// }).then((r) => r.text());
 
 
