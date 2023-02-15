@@ -170,11 +170,11 @@ document.getElementById("contact-github").addEventListener("click", function () 
   window.open("https://github.com/krishna8464", "_blank");
 });
 
-document.getElementById("contact-email").addEventListener("click", function () {
+document.getElementById("contact-emails").addEventListener("click", function () {
   window.open("mailto:yendavamshikrishna123@gmail.com", "_blank");
 });
 
-document.getElementById("contact-email").addEventListener("click", function () {
+document.getElementById("contact-phones").addEventListener("click", function () {
   window.open("tel:8464963224", "_blank");
 });
 
