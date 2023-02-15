@@ -157,6 +157,8 @@ document.getElementById("depweather").addEventListener("click", function () {
   window.open("https://guileless-marshmallow-17f541.netlify.app", "_blank");
 });
 
+
+
 // linkedin and github
 document.getElementById("linkedin").addEventListener("click", function () {
   window.open(
@@ -179,7 +181,7 @@ document.getElementById("contact-email").addEventListener("click", function () {
 
 
 
-GitHubCalendar(".calendar", "krishna8464");
+// GitHubCalendar(".calendar", "krishna8464");
 
 // or enable responsive functionality:
 GitHubCalendar(".calendar", "krishna8464", { responsive: true });
