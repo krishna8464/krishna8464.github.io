@@ -934,14 +934,265 @@ nav .menu-btn i {
 /* project ends */
 
 
+/* my contribution starts */
+/* my contribution starts */
+#statistic {
+  margin: auto;
+  text-align: center;
+  font-size: 60px;
+  margin-top: 150px;
+  font-weight: 600;
+  color: #7b7b7b;
+  letter-spacing: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+#project_contribution {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(1, auto);
+  font-family: "Poppins", sans-serif;
+  width: 90%;
+  margin: auto;
+  gap: 50px;
+  padding-top: 100px;
+  align-content: center;
+  padding-bottom: 200px;
+  letter-spacing: 1px;
+}
+.conthead {
+  text-align: center;
+  color: rgb(231, 225, 225);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding-top: 30px;
+  font-size: 20px;
+  padding-bottom: 20px;
+  transition: all 1s;
+}
+.conthead:hover {
+  transform: rotateY(360deg);
+}
+.conthead > h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.conthead > h2 > span {
+  color: #da9a07;
+  font-size: 40px;
+}
+.conthead > h2 + p {
+  font-weight: 500;
+}
+@media all and (min-width: 500px) and (max-width: 940px) {
+  #statistic {
+    font-size: 40px;
+    margin-top: 100px;
+    font-weight: 700;
+    letter-spacing: 7px;
+  }
+  #project_contribution {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+  }
+}
+@media all and (min-width: 150px) and (max-width: 500px) {
+  #statistic {
+    font-size: 40px;
+    margin-top: 60px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    padding-top: 70px;
+  }
+  #project_contribution {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(5, auto);
+    padding-top: 50px;
+  }
+}
+/* my contribution ends */
+
+
+/* git calander starts */
+/* git calender */
+.code {
+  font-family: "Poppins", sans-serif;
+  color: #7b7b7b;
+  font-weight: 600;
+  font-size: 60px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.calendar {
+  color: black;
+  background-color: white;
+  transition: all 0.5s;
+  width: 70%;
+}
+.calendar:hover {
+  background-color: black;
+}
+
+#streak{
+  display: flex;
+  /* max-width: 100%; */
+  justify-content: center;
+}
+#github-streak-stats{
+  max-width: 100%;
+}
+#github-top-langs{
+  max-width: 100%;
+}
+#github-stats-card{
+  max-width: 100%;
+}
+
+@media all and (min-width: 150px) and (max-width: 500px) {
+  .code {
+   
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .calendar {
+    color: black;
+    background-color: white;
+    transition: all 0.5s;
+    width: 90%;
+    font-size: 15px;
+  }
+}
+
+
+
+/* git calnder ends */
+
+
 
 
 
 
 
 /* contact starts */
+/* contact starts */
+.contactme {
+  padding-top: 200px;
+}
+.contactme > h1 {
+  font-size: 70px;
+  color: rgb(123, 123, 123);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  letter-spacing: 10px;
+  text-align: center;
+}
+.contact {
+  display: flex;
+  padding-top: 100px;
+}
+
+.contactimg > img {
+  width: 40%;
+  margin-left: 150px;
+}
+
+.contactMail {
+  width: 50%;
+}
+.contactMail > h2 {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  padding-bottom: 10px;
+}
+.contactMail > h2 > span > img {
+  width: 6%;
+}
+.form {
+  width: 80%;
+}
+.formname {
+  width: 45%;
+  padding-left: 10px;
+  height: 50px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 7px;
+}
+.formmail {
+  width: 45%;
+  margin-left: 40px;
+  padding-left: 10px;
+  height: 50px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 7px;
+}
+textarea {
+  width: 100%;
+  height: 120px;
+  margin-top: 20px;
+  border-radius: 7px;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-family: "Poppins", sans-serif;
+}
+input[type="text"]:focus {
+  border: 3px solid #da9a07;
+}
+input[type="email"]:focus {
+  border: 3px solid #da9a07;
+}
+#submit {
+  padding: 10px 20px 10px 20px;
+  font-family: "Poppins", sans-serif;
+  background-color: #da9a07;
+  margin-top: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border-radius: 8px;
+  transition: all 1s;
+}
+#submit:hover {
+  background-color: #1f1f20;
+  border: 2px solid #da9a07;
+  color: white;
+}
+form + div {
+  display: flex;
+  width: 30%;
+  padding-top: 50px;
+  margin: auto;
+  align-items: center;
+}
+form + div > img {
+  width: 20%;
+  transition: all 1s;
+  cursor: pointer;
+}
+form + div > img:hover {
+  transform: scale(1.3);
+}
+#gitprofile {
+  margin-left: 10px;
+}
+
+#mailprofile{
+  margin-left: 10px;
+}
+#contact-email{
+  margin-left: 10px;
+}
+
+.copyright {
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+}
+.copyright > span {
+  font-size: 20px;
+}
 @media all and (min-width: 500px) and (max-width: 1000px) {
-  /* .contactme {
+  .contactme {
     padding-top: 100px;
   }
   .contactme > h1 {
@@ -996,14 +1247,14 @@ nav .menu-btn i {
   form + div {
     justify-content: center;
     width: 40%;
-  } */
+  }
   .typing-text {
     font-size: 22px;
   }
 }
 
 @media all and (min-width: 150px) and (max-width: 500px) {
-  /* .contactme {
+  .contactme {
     padding-top: 100px;
   }
   .contactme > h1 {
@@ -1063,7 +1314,7 @@ nav .menu-btn i {
   }
   form + div > img {
     width: 30%;
-  } */
+  }
   .typing-text {
     font-size: 18px;
   }

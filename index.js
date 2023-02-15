@@ -157,27 +157,38 @@ document.getElementById("depweather").addEventListener("click", function () {
   window.open("https://guileless-marshmallow-17f541.netlify.app", "_blank");
 });
 
-// // linkedin and github
-// document.getElementById("linkedin").addEventListener("click", function () {
-//   window.open(
-//     "https://www.linkedin.com/in/yenda-vamshi-krishna-0826a2253/",
-//     "_blank"
-//   );
-// });
-// document.getElementById("gitprofile").addEventListener("click", function () {
-//   window.open("https://github.com/krishna8464", "_blank");
-// });
+// linkedin and github
+document.getElementById("linkedin").addEventListener("click", function () {
+  window.open(
+    "https://www.linkedin.com/in/yenda-vamshi-krishna-0826a2253/",
+    "_blank"
+  );
+});
+document.getElementById("gitprofile").addEventListener("click", function () {
+  window.open("https://github.com/krishna8464", "_blank");
+});
 
-// GitHubCalendar(".calendar", "krishna8464");
+document.getElementById("mailprofile").addEventListener("click", function () {
+  window.open("mailto:yendavamshikrishna123@gmail.com", "_blank");
+});
 
-// // or enable responsive functionality:
-// GitHubCalendar(".calendar", "krishna8464", { responsive: true });
+document.getElementById("contact-email").addEventListener("click", function () {
+  window.open("tel:8464963224", "_blank");
+});
 
-// // Use a proxy
-// GitHubCalendar(".calendar", "krishna8464", {
-//   proxy(username) {
-//     return fetch(`https://your-proxy.com/github?user=${krishna8464}`);
-//   },
-// }).then((r) => r.text());
+
+
+
+GitHubCalendar(".calendar", "krishna8464");
+
+// or enable responsive functionality:
+GitHubCalendar(".calendar", "krishna8464", { responsive: true });
+
+// Use a proxy
+GitHubCalendar(".calendar", "krishna8464", {
+  proxy(username) {
+    return fetch(`https://your-proxy.com/github?user=${krishna8464}`);
+  },
+}).then((r) => r.text());
 
 
