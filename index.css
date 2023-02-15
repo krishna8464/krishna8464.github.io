@@ -595,6 +595,349 @@ nav .menu-btn i {
 
 /* skills ends  */
 
+/* project starts */
+
+.projects {
+  background-color: #1f1f20;
+}
+.aliens {
+  color: rgb(123, 123, 123);
+  display: inline-block;
+  font-size: 60px;
+  font-weight: 700;
+  margin-left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.aliens > * {
+  animation: turn 5s ease-in;
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  letter-spacing: 0px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transform: scaleY(1);
+}
+
+@keyframes turn {
+  0% {
+    transform: scaleY(1) rotateY(90deg);
+  }
+  100% {
+    text-shadow: 0 0 0.5rem rgb(50, 50, 50);
+    transform: scaleY(1) rotateY(0);
+  }
+}
+
+@media all and (min-width: 500px) and (max-width: 940px) {
+  .projects {
+    margin-top: -85px;
+    padding-top: 50px;
+  }
+  .aliens {
+    font-size: 45px;
+    width: 80%;
+    font-weight: 700;
+    text-align: center;
+  }
+}
+
+@media all and (min-width: 150px) and (max-width: 500px) {
+  .projects {
+    margin-top: -85px;
+    padding-top: 40px;
+  }
+  .aliens {
+    font-size: 24px;
+    width: 96%;
+    font-weight: 700;
+    text-align: center;
+  }
+}
+
+.projectImg {
+  width: 30%;
+  display: block;
+  margin: auto;
+}
+.myprojects {
+  padding-top: 50px;
+}
+.myprojects > div {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+.backendproject{
+  color: #da9a07;
+}
+.scrollimg {
+  display: flex;
+  gap: 50px;
+  padding-top: 50px;
+}
+.scrollimg .box {
+  width: 300px;
+  height: 250px;
+  background-color: black;
+  background-position: top;
+  transition: ease-in-out 3s;
+}
+.scrollimg .box.box1 {
+  background-image: url(./images/Mailtrap.png);
+  background-size: cover;
+}
+.scrollimg .box:hover {
+  background-position: bottom;
+}
+.scrollimg > div + div {
+  width: 60%;
+}
+.scrollimg > div + div > h2 {
+  color: #da9a07;
+  font-family: "Poppins", sans-serif;
+}
+.scrollimg > div + div > h2 > span > img {
+  cursor: pointer;
+  width: 35px;
+  margin-top: -4px;
+}
+.scrollimg > div + div > h2 + p {
+  color: aliceblue;
+  padding-top: 15px;
+}
+.scrollimg > div + div > h2 + p + h3 {
+  font-size: 18px;
+  color: wheat;
+}
+.scrollimg > div + div > h2 + p + h3 + div {
+  display: flex;
+}
+.scrollimg > div + div > h2 + p + h3 + div > img {
+  width: 30px;
+  margin-left: 10px;
+}
+.scrollimg > div + div > h2 + p + h3 + div > img:last-child {
+  width: 24px;
+}
+
+.scrollimg > div + div > h2 + p + h3 + div > img:first-child {
+  margin-left: 0px;
+}
+
+.secondScroll {
+  display: flex;
+  width: 80%;
+  padding-top: 100px;
+  column-gap: 20px;
+}
+.secondscrollabout {
+  width: 60%;
+  padding-left: 20px;
+}
+.secondScroll > div > h2 {
+  color: #da9a07;
+  font-family: "Poppins", sans-serif;
+}
+.secondScroll > div > h2 > span > img {
+  width: 35px;
+  margin-top: -4px;
+  cursor: pointer;
+}
+.secondScroll > div > h2 + P {
+  color: white;
+}
+.secondScroll > div > h3 {
+  color: wheat;
+  font-size: 18px;
+}
+.secondScroll > div > h3 + div {
+  display: flex;
+  padding-top: 5px;
+}
+.secondScroll > div > h3 + div > img {
+  width: 27px;
+  margin-left: 10px;
+}
+
+.secondScroll .box {
+  width: 300px;
+  height: 250px;
+  background-color: black;
+  background-position: top;
+  transition: ease-in-out 3s;
+}
+.secondScroll .box.box2 {
+  background-image: url(./images/get.png);
+  background-size: cover;
+}
+.secondScroll .box:hover {
+  background-position: bottom;
+}
+.secondScroll .box.box0 {
+  background-image: url(./images/bus-api-img.jpg);
+  background-size: cover;
+}
+
+/* third project  */
+.scrollimg .box.box3 {
+  background-image: url(./images/weather.png);
+  background-size: cover;
+}
+
+@media all and (min-width: 500px) and (max-width: 940px) {
+  .projectImg {
+    width: 40%;
+  }
+  .myprojects {
+    margin: auto;
+    width: 100%;
+  }
+  .myprojects > div {
+    display: block;
+    margin: auto;
+  }
+  .scrollimg {
+    display: block;
+    gap: 50px;
+    padding-top: 60px;
+  }
+  .scrollimg .box {
+    width: 250px;
+    height: 200px;
+    display: block;
+    margin: auto;
+  }
+  .scrollimg > div + div {
+    width: 100%;
+  }
+  .scrollimg > div + div > h2 {
+    color: #da9a07;
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    padding-top: 30px;
+  }
+  .scrollimg > div + div > h2 + p {
+    color: aliceblue;
+    padding-top: 5px;
+    font-size: 15px;
+  }
+
+  .secondScroll {
+    display: block;
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+  .secondscrollabout {
+    width: 100%;
+  }
+  .secondScroll .box {
+    width: 250px;
+    height: 200px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .secondScroll > div > h2 {
+    font-size: 22px;
+    margin-left: -20px;
+  }
+  .secondScroll > div > h2 + P {
+    color: white;
+    margin-left: -20px;
+  }
+  .secondScroll > div > h3 {
+    margin-left: -20px;
+  }
+  .secondScroll > div > h3 + div {
+    margin-left: -25px;
+  }
+}
+
+@media all and (min-width: 150px) and (max-width: 500px) {
+  .projectImg {
+    width: 60%;
+  }
+  .myprojects {
+    margin: auto;
+    width: 100%;
+  }
+  .myprojects > div {
+    display: block;
+    margin: auto;
+  }
+  .scrollimg {
+    display: block;
+    gap: 50px;
+    padding-top: 40px;
+  }
+  .scrollimg .box {
+    width: 200px;
+    height: 150px;
+    display: block;
+    margin: auto;
+  }
+  .scrollimg > div + div {
+    width: 100%;
+  }
+  .scrollimg > div + div > h2 {
+    color: #da9a07;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    width: 100%;
+    padding-top: 30px;
+  }
+  .scrollimg > div + div > h2 > span > img {
+    cursor: pointer;
+    width: 20px;
+    margin-top: -4px;
+  }
+
+  .scrollimg > div + div > h2 + p {
+    color: aliceblue;
+    padding-top: 5px;
+    font-size: 15px;
+    margin-left: 0px;
+  }
+
+  .secondScroll {
+    display: block;
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+  .secondscrollabout {
+    width: 100%;
+  }
+  .secondScroll .box {
+    width: 200px;
+    height: 150px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .secondScroll > div > h2 {
+    font-size: 22px;
+    margin-left: -20px;
+  }
+  .secondScroll > div > h2 + P {
+    color: white;
+    margin-left: -20px;
+  }
+  .secondScroll > div > h3 {
+    margin-left: -20px;
+  }
+  .secondScroll > div > h3 + div {
+    margin-left: -25px;
+  }
+}
+/* project ends */
+
+
+
+
+
+
 
 /* contact starts */
 @media all and (min-width: 500px) and (max-width: 1000px) {

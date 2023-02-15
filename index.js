@@ -107,55 +107,55 @@ function setTyper(element, words) {
 }
 
 
-// // main project bus 
-// document.getElementById("depbus").addEventListener("click", function () {
-//   window.open(
-//     "https://effortless-daffodil-5b9af6.netlify.app/",
-//     "_blank"
-//   );
-// });
-// document.getElementById("gitbus").addEventListener("click", function () {
-//   window.open(
-//     "https://github.com/krishna8464/-pricey-secretary-8466",
-//     "_blank"
-//   );
-// });
+// main project bus 
+document.getElementById("depbus").addEventListener("click", function () {
+  window.open(
+    "https://effortless-daffodil-5b9af6.netlify.app/",
+    "_blank"
+  );
+});
+document.getElementById("gitbus").addEventListener("click", function () {
+  window.open(
+    "https://github.com/krishna8464/-pricey-secretary-8466",
+    "_blank"
+  );
+});
 
 
 
 
 
-// //1st prject github and deploy link
-// document.getElementById("gitindiamart").addEventListener("click", function () {
-//   window.open("https://github.com/krishna8464/-average-alarm-4307", "_blank");
-// });
+//1st prject github and deploy link
+document.getElementById("gitindiamart").addEventListener("click", function () {
+  window.open("https://github.com/krishna8464/-average-alarm-4307", "_blank");
+});
 
-// document.getElementById("indmartdep").addEventListener("click", function () {
-//   window.open("https://mailtrap.netlify.app/", "_blank");
-// });
+document.getElementById("indmartdep").addEventListener("click", function () {
+  window.open("https://mailtrap.netlify.app/", "_blank");
+});
 
-// //2nd prject github and deploy link
-// document.getElementById("depshopnow").addEventListener("click", function () {
-//   window.open(
-//     "https://get-a-hut.netlify.app/",
-//     "_blank"
-//   );
-// });
-// document.getElementById("gitshopnow").addEventListener("click", function () {
-//   window.open(
-//     "https://github.com/krishna8464/-dreary-hand-8237",
-//     "_blank"
-//   );
-// });
+//2nd prject github and deploy link
+document.getElementById("depshopnow").addEventListener("click", function () {
+  window.open(
+    "https://get-a-hut.netlify.app/",
+    "_blank"
+  );
+});
+document.getElementById("gitshopnow").addEventListener("click", function () {
+  window.open(
+    "https://github.com/krishna8464/-dreary-hand-8237",
+    "_blank"
+  );
+});
 
-// //3rd prject github and deploy link
+//3rd prject github and deploy link
 
-// document.getElementById("gitweather").addEventListener("click", function () {
-//   window.open("https://github.com/krishna8464/Weatherapp", "_blank");
-// });
-// document.getElementById("depweather").addEventListener("click", function () {
-//   window.open("https://guileless-marshmallow-17f541.netlify.app", "_blank");
-// });
+document.getElementById("gitweather").addEventListener("click", function () {
+  window.open("https://github.com/krishna8464/Weatherapp", "_blank");
+});
+document.getElementById("depweather").addEventListener("click", function () {
+  window.open("https://guileless-marshmallow-17f541.netlify.app", "_blank");
+});
 
 // // linkedin and github
 // document.getElementById("linkedin").addEventListener("click", function () {
