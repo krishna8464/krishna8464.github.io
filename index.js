@@ -160,17 +160,17 @@ document.getElementById("depweather").addEventListener("click", function () {
 
 
 // linkedin and github
-document.getElementById("linkedin").addEventListener("click", function () {
+document.getElementById("contact-linkedin").addEventListener("click", function () {
   window.open(
     "https://www.linkedin.com/in/yenda-vamshi-krishna-0826a2253/",
     "_blank"
   );
 });
-document.getElementById("gitprofile").addEventListener("click", function () {
+document.getElementById("contact-github").addEventListener("click", function () {
   window.open("https://github.com/krishna8464", "_blank");
 });
 
-document.getElementById("mailprofile").addEventListener("click", function () {
+document.getElementById("contact-email").addEventListener("click", function () {
   window.open("mailto:yendavamshikrishna123@gmail.com", "_blank");
 });
 

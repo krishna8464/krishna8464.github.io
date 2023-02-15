@@ -597,7 +597,7 @@ nav .menu-btn i {
 
 /* project starts */
 
-.projects {
+.projectss {
   background-color: #1f1f20;
 }
 .aliens {
@@ -631,7 +631,7 @@ nav .menu-btn i {
 }
 
 @media all and (min-width: 500px) and (max-width: 940px) {
-  .projects {
+  .projectss {
     margin-top: -85px;
     padding-top: 50px;
   }
@@ -644,7 +644,7 @@ nav .menu-btn i {
 }
 
 @media all and (min-width: 150px) and (max-width: 500px) {
-  .projects {
+  .projectss {
     margin-top: -85px;
     padding-top: 40px;
   }
@@ -1172,11 +1172,11 @@ form + div > img {
 form + div > img:hover {
   transform: scale(1.3);
 }
-#gitprofile {
+#contact-github {
   margin-left: 10px;
 }
 
-#mailprofile{
+#contact-email{
   margin-left: 10px;
 }
 #contact-email{
