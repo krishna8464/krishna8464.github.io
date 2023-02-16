@@ -139,10 +139,10 @@ nav ul li a p:hover {
     padding-left: 20px;
     margin-top: 50px;
   }
-  #resume >a{
+  #resume>button >a{
     text-decoration: none;
   }
-  #resume > a {
+  #resume > button > a {
     background-color: #da9a07;
     color: #000000;
     text-decoration: none;
@@ -152,7 +152,7 @@ nav ul li a p:hover {
     letter-spacing: 1px;
     transition: all 1s;
   }
-  #resume > a:hover {
+  #resume> button > a:hover {
     background-color: #1f1f20;
     color: white;
     border: 2px solid #da9a07;
@@ -350,7 +350,7 @@ nav ul li a p:hover {
       #resume {
         margin-top: 20px;
       }
-      #resume > a {
+      #resume > button > a {
         font-size: 12px;
         padding: 5px 15px 5px 15px;
       }
