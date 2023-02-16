@@ -42,12 +42,15 @@
         <i class="fas fa-bars"></i>
       </label>
       <ul>
-        <li><a id="home" href="#cont">Home</a></li>
-        <li><a id="about" class="about section" href="#abouts">About</a></li>
-        <li><a id="skills" href="#mySkill">My Skills</a></li>
-        <li><a id="projects" href="#projectnav">Projects</a></li>
-        <li><a id="contact" href="#contactnav">Contact</a></li>
-        <li></li>
+        <li><a id="home" class="nav-link home" href="#cont">Home</a></li>
+        <li><a id="about" class="nav-link about" href="#abouts">About</a></li>
+        <li><a id="skills" class="nav-link skills" href="#mySkill">My Skills</a></li>
+        <li><a id="projects" class="nav-link projects" href="#projectnav">Projects</a></li>
+        <li><a id="contact" class="nav-link contact" href="#contactnav">Contact</a></li>
+        <li><a style="color: white;" id="resume-link-1" target="_blank" class="nav-link resume" href="Yenda_VamshiKrishna_Resume.pdf" download>Resume</a></li>
+        
+       
+      </a></li>
        
       </ul>
     </nav>
@@ -61,8 +64,8 @@
         <div>
           <h1 class="typing-dev" style="color: whitesmoke; padding-left: 20px;"></h1>
         </div>
-        <div id="resume" class="nav-link resume">
-          <a id="resume-link-1" href="Yenda_VamshiKrishna_Resume.pdf" download><button id="resume-button-1">Resume</button></a>
+        <div id="resume">
+          <a id="resume-link-2" target="_blank" href="Yenda_VamshiKrishna_Resume.pdf" download><button id="resume-button-2">Resume</button></a>
         </div>
       </div>
 
@@ -81,24 +84,26 @@
       ></path>
     </svg>
     <!-- about starts -->
-    <div id="abouts">
+    <div id="abouts" class="about section">
       <div id="about_img">
         <img src="./images/About_me_flipped.png" alt="" />
       </div>
-      <div id="aboutInfo" class="nav-link about">
+      <!-- class="nav-link about" -->
+      <div id="aboutInfo">
         <img id="myImage" class="home-img" src="./images/vamshi.png" alt="" />
         <h3>My name is</h3>
         <h2 id="user-detail-name"><span>V</span>amshi <span>K</span>rishna</h2>
-        <div id="user-detail-intro">
-          A headstrong and inquisitive, aspiring Backend developer, highly
+        <!-- <div >
+           
+        </div> -->
+        <p style="text-align: justify;" id="user-detail-intro">
+          <!-- I'm a Java Backend Developer with a passion for web development. I've got HTML, CSS, and JavaScript in my toolkit, and I'm ready to put them to work for you. I love taking a project from start to finish and seeing the final product come to life. Whether it's building a dynamic website or adding a touch of style with CSS, I'm all in. So, let's make some magic happen! With me on your team, your website will be the talk of the virtual town. So, let's get to work! -->
+          A headstrong and inquisitive, aspiring Backend developer,Ability to design, develop, & deliver user-centric web applications using Java, HTML, CSS to boost customer engagement. highly
           skilled in bulding robust and scalable applications and web API
           designs using JavaScript and MongoDB. Effective remote collaborator with
           an immense passion for building good software, looking forward to a
           sparkling career as a Node Back-End Developer.
-        </div>
-        <!-- <p>
-          
-        </p> -->
+        </p>
       </div>
       
     </div>
@@ -115,45 +120,43 @@
     </svg>
     <!-- skills -->
 
-    <div id="mySkill">
-    <div class="mySkills">
+    <div class="mySkills" id="mySkill">
       <h1>MY SKILLS</h1>
     </div>
-    <div class="nav-link skills">
-      <div class="skills-card" >
+    <div class="skills skills-card">
+      <div>
         <img class="skills-card-img" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="" />
         <h2 class="skills-card-name">JavaScript</h2>
       </div>
-      <div class="skills-card" >
+      <div>
         <img class="skills-card-img" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="" />
         <h2 class="skills-card-name">MongoDB</h2>
       </div>
-      <div class="skills-card" >
+      <div>
         <img class="skills-card-img" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="" />
         <h2 class="skills-card-name">NodeJS</h2>
       </div>
-      <div class="skills-card" >
+      <div>
         <img class="skills-card-img" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="" />
         <h2 class="skills-card-name">Express</h2>
       </div>
-      <div class="skills-card" >
+      <div>
         <img class="skills-card-img" src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="" />
         <h2 class="skills-card-name">Post Man</h2>
       </div>
-      <div class="skills-card" >
+      <div>
         <img class="skills-card-img" src="./images/html5-original-wordmark.svg" alt="" />
         <h2 class="skills-card-name">HTML 5</h2>
       </div>
-      <div class="skills-card" >
+      <div>
         <img class="skills-card-img" src="./images/css3-original-wordmark.svg" alt="" />
         <h2 class="skills-card-name">CSS 3</h2>
       </div>
-      <div class="skills-card" >
+      <div>
         <img class="skills-card-img" src="./images/bootstrap-plain-wordmark.svg" alt="" />
         <h2 class="skills-card-name">Bootstrap</h2>
       </div>
     </div>
-  </div>
 
     <!-- skills end  -->
     <!--  ------------------------------------------------------------skills session ends -------------------------------------------------------------- -->
@@ -178,8 +181,8 @@
     <div>
       <img src="./images/projects.png" alt="" class="projectImg" />
     </div>
-
-    <div id="projectnav" class="nav-link projects myprojects">
+<!-- nav-link projects -->
+    <div id="projectnav" class="myprojects">
       <!-- main project -->
 
       <div class="project-card secondScroll">
@@ -329,16 +332,17 @@
     <br>
     <div id="streak"><p><img id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=krishna8464&layout=compact" alt="krishna8464" /></p></div>
         <!------------------------------------------------------------------ git hub ends -------------------------------------------------------------------->
-        <div id="resume2" class="nav-link resume">
+        <!-- <div id="resume2" class="nav-link resume">
           <a id="resume-link-2" href="Yenda_VamshiKrishna_Resume.pdf" download><button id="resume-button-2">Resume</button></a>
-        </div>
+        </div> -->
 
         <!-------------------------------------------------------------------contact me starts --------------------------------------------------------------  -->
         <!-- contact me starts  -->
     <div class="contactme" id="contactnav">
       <h1>CONTACT ME</h1>
     </div>
-    <div class="contact nav-link contact">
+    <!-- nav-link contact -->
+    <div class="contact">
       <div class="contactimg">
         <img src="./images/contact.png" alt="" />
       </div>
