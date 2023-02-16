@@ -413,7 +413,7 @@ nav ul li a p:hover {
   gap: 60px;
   background-color: #da9a07;
   margin-top: -50px;
-  padding-bottom: 150px;
+  padding-bottom: 100px;
 }
 #about_img {
   width: 40%;
@@ -549,7 +549,7 @@ nav ul li a p:hover {
   margin: auto;
   width: 100%;
   justify-content: center;
-  padding: 100px 0px 200px 0px;
+  padding: 100px 0px 100px 0px;
 }
 .skill > div > img {
   width: 40%;
@@ -585,7 +585,7 @@ nav ul li a p:hover {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, auto);
     row-gap: 30px;
-    padding: 50px 0px 200px 0px;
+    padding: 50px 0px 100px 0px;
   }
   .skill > div > h2 {
     font-size: 18px;
@@ -606,7 +606,7 @@ nav ul li a p:hover {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, auto);
     row-gap: 30px;
-    padding: 50px 0px 200px 0px;
+    padding: 50px 0px 100px 0px;
   }
   .skill > div > img {
     width: 30%;
@@ -752,7 +752,7 @@ nav ul li a p:hover {
 .secondScroll {
   display: flex;
   width: 80%;
-  padding-top: 100px;
+  /* padding-top: 100px; */
   column-gap: 20px;
 }
 .secondscrollabout {
@@ -963,7 +963,7 @@ nav ul li a p:hover {
   margin: auto;
   text-align: center;
   font-size: 60px;
-  margin-top: 150px;
+  margin-top: 100px;
   font-weight: 600;
   color: #7b7b7b;
   letter-spacing: 10px;
@@ -980,7 +980,7 @@ nav ul li a p:hover {
   gap: 50px;
   padding-top: 100px;
   align-content: center;
-  padding-bottom: 200px;
+  padding-bottom: 100px;
   letter-spacing: 1px;
 }
 .conthead {
@@ -1018,6 +1018,8 @@ nav ul li a p:hover {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, auto);
   }
+  
+  
 }
 @media all and (min-width: 150px) and (max-width: 500px) {
   #statistic {
@@ -1038,6 +1040,28 @@ nav ul li a p:hover {
 
 
 /* git calander starts */
+#alignethem{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin: auto;
+  width: 70%;
+}
+@media all and (min-width: 350px) and (max-width: 940px) {
+  #alignethem{
+   
+    grid-template-columns: repeat(2,1fr);
+  
+  }
+}
+
+@media all and (min-width: 0px) and (max-width: 351px) {
+  #alignethem{
+   
+    grid-template-columns: repeat(1,1fr);
+  
+  }
+}
+
 /* git calender */
 .code {
   font-family: "Poppins", sans-serif;
@@ -1101,7 +1125,7 @@ nav ul li a p:hover {
 /* contact starts */
 /* contact starts */
 .contactme {
-  padding-top: 200px;
+  padding-top: 100px;
 }
 .contactme > h1 {
   font-size: 70px;
