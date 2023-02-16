@@ -5,6 +5,7 @@
     "start": ""
   },
   "dependencies": {
+    "nodemon": "^2.0.20",
     "react-github-calendar": "^3.4.0"
   }
 }
