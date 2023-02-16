@@ -175,7 +175,9 @@ nav .menu-btn i {
   }
   /* second button */
 
-
+#contact-phones{
+  margin-left: 10px;
+}
 
 
   #intro {
@@ -1187,12 +1189,10 @@ form + div > img:hover {
   margin-left: 10px;
 }
 
-#contact-email{
+#contact-emails{
   margin-left: 10px;
 }
-#contact-email{
-  margin-left: 10px;
-}
+
 
 .copyright {
   color: white;
