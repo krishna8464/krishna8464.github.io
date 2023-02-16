@@ -35,19 +35,22 @@
             <span><img src="./images/up-chevron.png" alt="" /></span>
             </button>
             <!------------------------------------------------ nav bar starts ------------------------------------------------------------>
-    <nav>
+    <nav id="nav-menu">
       <div class="logo"></div>
       <input type="checkbox" id="click" />
       <label for="click" class="menu-btn">
         <i class="fas fa-bars"></i>
       </label>
-      <ul id="nav-menu">
-        <li><a id="home" href="#cont">Home</a></li>
-        <li><a id="about" class="about section" href="#abouts">About</a></li>
-        <li><a id="skills" href="#mySkill">My Skills</a></li>
-        <li><a id="projects"  href="#projectnav">Projects</a></li>
-        <li><a id="contact" href="#contactnav">Contact</a></li>
-        <li><a class="nav-link resume" style="color: white;" id="resume-link-1" target="_blank"  href="Yenda_VamshiKrishna_Resume.pdf" download>Resume</a></li>
+      <ul>
+        <!-- class="nav-link home" -->
+        <li><a class="nav-link home" href="#"><p>Home</p></a></li>
+        <!-- class="nav-link about" -->
+        <li><a class="nav-link about" href="#about"><p>About</p></a></li>
+        <!-- class="nav-link skills" -->
+        <li><a class="nav-link skills" href="#skills"><p>My Skills</p></a></li>
+        <li><a class="nav-link projects" href="#projects"><p>Projects</p></a></li>
+        <li><a class="nav-link contact" href="#contact"><p>Contact</p></a></li>
+        <li><a class="nav-link resume" style="color: white;" id="resume-link-1" target="_blank"  href="Yenda_VamshiKrishna_Resume.pdf" download><p>Resume</p></a></li>
         
       
        
@@ -56,7 +59,7 @@
      <!-- --------------------------------------------------nav bar ends ------------------------------------------------------------------------>
 
      <!----------------------------------------------------- resume session starts ------------------------------------------------------------------>
-     <div id="intro">
+     <div id="intro" id="home">
       <div id="introText">
         <h3>Hi, I'm</h3>
         <div id="str"></div>
@@ -83,7 +86,8 @@
       ></path>
     </svg>
     <!-- about starts -->
-    <div id="abouts" class="nav-link about">
+   
+    <div id="about" class="about section">
       <div id="about_img">
         <img src="./images/About_me_flipped.png" alt="" />
       </div>
@@ -97,7 +101,7 @@
            
         </div> -->
         <p id="user-detail-intro" style="text-align: justify;">
-          <!-- I'm a Java Backend Developer with a passion for web development. I've got HTML, CSS, and JavaScript in my toolkit, and I'm ready to put them to work for you. I love taking a project from start to finish and seeing the final product come to life. Whether it's building a dynamic website or adding a touch of style with CSS, I'm all in. So, let's make some magic happen! With me on your team, your website will be the talk of the virtual town. So, let's get to work! -->
+          <!-- I'm a JavaScript Backend Developer with a passion for web development. I've got HTML, CSS, and JavaScript in my toolkit, and I'm ready to put them to work for you. I love taking a project from start to finish and seeing the final product come to life. Whether it's building a dynamic website or adding a touch of style with CSS, I'm all in. So, let's make some magic happen! With me on your team, your website will be the talk of the virtual town. So, let's get to work! -->
           A headstrong and inquisitive, aspiring Backend developer. Ability to design, develop, & deliver user-centric web applications using JavaScript, HTML, CSS to boost customer engagement. highly
           skilled in bulding robust and scalable applications and web API
           designs using JavaScript and MongoDB. Effective remote collaborator with
@@ -120,11 +124,11 @@
       ></path>
     </svg>
     <!-- skills -->
-    
-    <div class="mySkills" id="mySkill">
+    <div id="skills" class="nav-link skills">
+    <div class="mySkills">
       <h1>MY SKILLS</h1>
     </div>
-    <div class="nav-link skills skills-card">
+    <div class="skills-card skill">
       <div>
         <img class="skills-card-img" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="" />
         <h2 class="skills-card-name">JavaScript</h2>
@@ -158,7 +162,7 @@
         <h2 class="skills-card-name">Bootstrap</h2>
       </div>
     </div>
-
+    </div>
     <!-- skills end  -->
     <!--  ------------------------------------------------------------skills session ends -------------------------------------------------------------- -->
 
@@ -183,7 +187,7 @@
       <!-- <img src="./images/projects.png" alt="" class="projectImg" /> -->
     </div>
 <!-- nav-link projects -->
-    <div id="projectnav" class="nav-link projects myprojects">
+    <div id="projects" class="myprojects">
       <!-- main project -->
 
       <div class="project-card secondScroll">
@@ -339,11 +343,11 @@
 
         <!-------------------------------------------------------------------contact me starts --------------------------------------------------------------  -->
         <!-- contact me starts  -->
-    <div class="contactme" id="contactnav">
+    <div class="contactme">
       <h1>CONTACT ME</h1>
     </div>
     <!-- nav-link contact -->
-    <div class="nav-link contact">
+    <div id="contact" class="contacts">
       <div class="contactimg">
         <img src="./images/contact.png" alt="" />
       </div>

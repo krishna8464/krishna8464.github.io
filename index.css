@@ -23,6 +23,7 @@ nav {
   width: 100%;
   position: fixed;
   z-index: 1;
+  
 }
 nav .logo {
   color: white;
@@ -44,32 +45,41 @@ nav .logo span:hover {
 nav ul {
   display: flex;
   list-style: none;
+  text-align: center;
+  padding-top: 20px;
 }
 nav ul li {
   margin: 0px 7px;
   font-size: 20px;
   margin-left: 30px;
 }
-nav ul li a {
+
+nav ul li a{
   text-decoration: none;
+}
+
+nav ul li a p{
+  text-decoration: none;
+  
   color: white;
   transition: all 0.5s ease-in-out;
   letter-spacing: 1px;
 }
-nav ul li a:hover {
-  color: #da9a07;
-}
+
 nav .menu-btn i {
   color: white;
   font-size: 20px;
   cursor: pointer;
   display: none;
+  
 }
 #click {
   display: none;
 }
 
-
+nav ul li a p:hover {
+  color: #da9a07;
+}
 
 
 #myBtn {
@@ -398,7 +408,7 @@ nav .menu-btn i {
 /* --------------------------------------------------------nav and first div css ends ----------------------------------------------------- */
 
 /* about  starts*/
-#abouts {
+#about {
   display: flex;
   gap: 60px;
   background-color: #da9a07;
@@ -452,7 +462,7 @@ nav .menu-btn i {
   #svg1 {
     margin-top: 150px;
   }
-  #abouts {
+  #about {
     display: block;
   }
   #about_img {
@@ -485,7 +495,7 @@ nav .menu-btn i {
   #svg1 {
     margin-top: 80px;
   }
-  #abouts {
+  #about {
     display: block;
     margin-top: -10px;
     padding-bottom: 90px;
@@ -531,7 +541,7 @@ nav .menu-btn i {
   color: #7b7b7b;
   font-weight: 700;
 }
-.skills {
+.skill {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(1, auto);
@@ -541,16 +551,16 @@ nav .menu-btn i {
   justify-content: center;
   padding: 100px 0px 200px 0px;
 }
-.skills > div > img {
+.skill > div > img {
   width: 40%;
   display: block;
   margin: auto;
   transition: all 1s;
 }
-.skills > div > img:hover {
+.skill > div > img:hover {
   transform: scale(1.2);
 }
-.skills > div > h2 {
+.skill > div > h2 {
   font-size: 20px;
   font-family: "Poppins", sans-serif;
   text-align: center;
@@ -558,32 +568,32 @@ nav .menu-btn i {
   padding-top: 20px;
   transition: all 1s;
 }
-.skills > div > h2:hover {
+.skill > div > h2:hover {
   transform: scale(1.2);
   color: #da9a07;
 }
 @media all and (min-width: 500px) and (max-width: 940px) {
-  #abouts + svg {
+  #about + svg {
     margin-bottom: -90px;
   }
   .mySkills > h1 {
     font-size: 40px;
     padding-top: 20px;
   }
-  .skills {
+  .skill {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, auto);
     row-gap: 30px;
     padding: 50px 0px 200px 0px;
   }
-  .skills > div > h2 {
+  .skill > div > h2 {
     font-size: 18px;
   }
 }
 
 @media all and (min-width: 150px) and (max-width: 500px) {
-  #abouts + svg {
+  #about + svg {
     margin-bottom: -150px;
   }
   .mySkills > h1 {
@@ -591,17 +601,17 @@ nav .menu-btn i {
     padding-top: 20px;
     letter-spacing: 7px;
   }
-  .skills {
+  .skill {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, auto);
     row-gap: 30px;
     padding: 50px 0px 200px 0px;
   }
-  .skills > div > img {
+  .skill > div > img {
     width: 30%;
   }
-  .skills > div > h2 {
+  .skill > div > h2 {
     font-size: 13px;
   }
 }
@@ -1101,7 +1111,7 @@ nav .menu-btn i {
   letter-spacing: 10px;
   text-align: center;
 }
-.contact {
+.contacts {
   display: flex;
   padding-top: 100px;
 }
@@ -1209,7 +1219,7 @@ form + div > img:hover {
   .contactme > h1 {
     font-size: 50px;
   }
-  .contact {
+  .contacts {
     display: block;
     padding-top: 30px;
   }
@@ -1272,7 +1282,7 @@ form + div > img:hover {
     font-size: 30px;
     letter-spacing: 3px;
   }
-  .contact {
+  .contacts {
     display: block;
     padding-top: 30px;
   }
