@@ -66,6 +66,16 @@ nav ul li a p{
   letter-spacing: 1px;
 }
 
+
+nav ul li a button{
+  text-decoration: none;
+  background-color: #1b1b1b;
+  border: none;
+  color: white;
+  transition: all 0.5s ease-in-out;
+  letter-spacing: 1px;
+}
+
 nav .menu-btn i {
   color: white;
   font-size: 20px;
@@ -81,6 +91,9 @@ nav ul li a p:hover {
   color: #da9a07;
 }
 
+nav ul li a button:hover {
+  color: #da9a07;
+}
 
 #myBtn {
     display: none;
