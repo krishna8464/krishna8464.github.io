@@ -765,7 +765,7 @@ nav ul li a button:hover {
 .secondScroll {
   display: flex;
   width: 80%;
-  /* padding-top: 100px; */
+   padding-top: 100px; 
   column-gap: 20px;
 }
 .secondscrollabout {
