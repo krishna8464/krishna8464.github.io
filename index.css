@@ -155,6 +155,9 @@ nav ul li a button:hover {
   #resume>button >a{
     text-decoration: none;
   }
+  #resume > button{
+  border-radius: 8px;
+}
   #resume > button > a {
     background-color: #da9a07;
     color: #000000;
