@@ -151,13 +151,15 @@ nav ul li a button:hover {
   #resume {
     padding-left: 20px;
     margin-top: 50px;
+    border-radius: 8px;
   }
   #resume>button >a{
     text-decoration: none;
   }
   #resume > button{
   border-radius: 8px;
-}
+  border: none;
+  }
   #resume > button > a {
     background-color: #da9a07;
     color: #000000;
