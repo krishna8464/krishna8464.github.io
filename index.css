@@ -152,7 +152,7 @@ nav ul li a button:hover {
 
 
   /* the first div css code starts */
-  #resume {
+  #resume-button-2 {
     padding-left: 20px;
     border-radius: 8px;
     margin-top: 50px;
@@ -162,16 +162,16 @@ nav ul li a button:hover {
   margin-bottom: 50px;
 }
   /* cha */
-  #resume >a{
+  #resume-button-2 >a{
     text-decoration: none;
   }
   /* cha */
-  #resume{
+  #resume-button-2{
   border-radius: 8px;
   border: none;
   }
   /* cha */
-  #resume > a {
+  #resume-button-2 > a {
     background-color: #da9a07;
     color: #000000;
     text-decoration: none;
@@ -182,7 +182,7 @@ nav ul li a button:hover {
     transition: all 1s;
   }
   /* cha */
-  #resume> a:hover {
+  #resume-button-2> a:hover {
     background-color: #1f1f20;
     color: white;
     border: 2px solid #da9a07;
@@ -377,11 +377,11 @@ nav ul li a button:hover {
         font-size: 20px;
       }
       /* first div starts */
-      #resume {
+      #resume-button-2{
         margin-top: 20px;
       }
       /* cha */
-      #resume > a {
+      #resume-button-2 > a {
         font-size: 12px;
         padding: 5px 15px 5px 15px;
       }
