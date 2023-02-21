@@ -87,7 +87,11 @@ nav .menu-btn i {
   display: none;
 }
 
-nav ul li a p:hover {
+/* #nav ul li a:hover {
+  color: #da9a07;
+} */
+
+ p:hover {
   color: #da9a07;
 }
 
@@ -170,6 +174,7 @@ nav ul li a button:hover {
     letter-spacing: 1px;
     transition: all 1s;
   }
+  
   #resume> button > a:hover {
     background-color: #1f1f20;
     color: white;
