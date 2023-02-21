@@ -157,14 +157,14 @@ nav ul li a button:hover {
     margin-top: 50px;
     border-radius: 8px;
   }
-  #resume>button >a{
+  #resume>span >a{
     text-decoration: none;
   }
-  #resume > button{
+  #resume > span{
   border-radius: 8px;
   border: none;
   }
-  #resume > button > a {
+  #resume > span > a {
     background-color: #da9a07;
     color: #000000;
     text-decoration: none;
@@ -175,7 +175,7 @@ nav ul li a button:hover {
     transition: all 1s;
   }
   
-  #resume> button > a:hover {
+  #resume> span > a:hover {
     background-color: #1f1f20;
     color: white;
     border: 2px solid #da9a07;
@@ -373,7 +373,7 @@ nav ul li a button:hover {
       #resume {
         margin-top: 20px;
       }
-      #resume > button > a {
+      #resume > span > a {
         font-size: 12px;
         padding: 5px 15px 5px 15px;
       }
