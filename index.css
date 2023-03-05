@@ -122,6 +122,12 @@ nav ul li a button:hover {
   } 
 
 
+
+ #changeever{
+  visibility: visible;
+ }
+
+
   /* eat sleep code  */
 .typing-text {
   color: #f88922;
