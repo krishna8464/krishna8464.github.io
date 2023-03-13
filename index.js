@@ -184,9 +184,9 @@ document.getElementById('resume-link-2').addEventListener("click",()=>{
   window.location.assign("https://drive.google.com/file/d/1ij5RSJFU7uu1FTJ9KSIq1T4iCYtxxXMg/view?usp=share_link","_blank")
 })
 
-document.getElementById('resume-link-1').addEventListener("click",()=>{
-  window.location.assign("https://drive.google.com/file/d/1ij5RSJFU7uu1FTJ9KSIq1T4iCYtxxXMg/view?usp=share_link","_blank")
-})
+// document.getElementById('resume-link-1').addEventListener("click",()=>{
+//   window.location.assign("https://drive.google.com/file/d/1ij5RSJFU7uu1FTJ9KSIq1T4iCYtxxXMg/view?usp=share_link","_blank")
+// })
 
 // resume-link-1
 
