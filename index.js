@@ -125,28 +125,31 @@ document.getElementById("gitbus").addEventListener("click", function () {
 
 
 
+
 //1st prject github and deploy link
 document.getElementById("gitindiamart").addEventListener("click", function () {
   window.open("https://github.com/krishna8464/-average-alarm-4307", "_blank");
 });
 
+//2nd prject github and deploy link
 document.getElementById("indmartdep").addEventListener("click", function () {
   window.open("https://mailtrap.netlify.app/", "_blank");
 });
 
-//2nd prject github and deploy link
+//3rd prject github and deploy link
 document.getElementById("depshopnow").addEventListener("click", function () {
   window.open(
-    "https://get-a-hut.netlify.app/",
-    "_blank"
-  );
+    "https://get-a-hut.netlify.app/","_blank");
 });
+
+//4th prject github and deploy link
 document.getElementById("gitshopnow").addEventListener("click", function () {
-  window.open(
-    "https://github.com/krishna8464/-dreary-hand-8237",
-    "_blank"
-  );
+  window.open("https://github.com/krishna8464/-dreary-hand-8237","_blank");
 });
+
+
+
+
 
 //3rd prject github and deploy link
 
@@ -155,6 +158,15 @@ document.getElementById("gitweather").addEventListener("click", function () {
 });
 document.getElementById("depweather").addEventListener("click", function () {
   window.open("https://guileless-marshmallow-17f541.netlify.app", "_blank");
+});
+
+//5th prject github and deploy link
+
+document.getElementById("gitchess").addEventListener("click", function () {
+  window.open("https://github.com/krishna8464/ChessGame-Socket.io", "_blank");
+});
+document.getElementById("depchess").addEventListener("click", function () {
+  window.open("https://realtimechessgame.onrender.com/", "_blank");
 });
 
 
